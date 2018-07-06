@@ -1,0 +1,31 @@
+About:
+This application runs a loads a local .gif  files in to a swift UIImageController. It allows you to access the files localy within you system.
+This can also be used to loal local .mov files.
+
+How to Run on Xcode:
+To test this project you will need to download and build it through the projects work space. 
+
+Set up:
+This project uses the following cocoa pods: SwiftGifOrgin
+
+How to Configure:
+1. install cocoa pods to project
+    use command line to access the current project, within the the project directory run
+    
+    > $sudo gem install cocoapods
+2. Create pod file
+    > pod init
+3. Add Swift Gif Orgin to the NEW pod file, as well as any other pods you would like to use.(**you can also access this through Xcode or your file explorer
+   it should be named PodFile)
+      >> Pod 'SwiftGifOrgin','1.6.1' <<
+   close the pod file
+ 4. open the .workspace file from within the terminal, or within your file explorer.
+ 5. Build the project this is very important
+ 6. import SwiftGifOrgin
+ 7. add a UIImage view to your project
+ 6. load a Gif into the project using the following line
+    >> NameofUIImageView.image = UIImage.gif(name: "/local/path/to/your/.gif/file ")
+    
+To load GIFS fast. just check out my code. It is very easy and fast. email me if you have any problems. 
+   
+    
